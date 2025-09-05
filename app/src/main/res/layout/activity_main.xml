@@ -24,7 +24,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-up            app:layout_constraintHeight_percent="0.5">
+         app:layout_constraintHeight_percent="0.5">
 
             <TextView
                 android:id="@+id/last_calc_text"
