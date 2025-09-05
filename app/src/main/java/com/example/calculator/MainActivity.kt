@@ -58,12 +58,12 @@ class MainActivity : AppCompatActivity() {
         allButtons.forEach { button ->
             button.setOnClickListener {buttonClicked ->
                 when (val tag = buttonClicked.tag.toString()) {
-                    in "0".."9" -> viewModel.onNumberClick(tag)
-                    "DOT" -> viewModel.onFloatPointClick()
-                    "CLEAR" -> viewModel.onClearAllClick()
-                    "BACKSPACE" -> viewModel.onBackspaceClick()
-                    "EQUAL" -> viewModel.onEqualClick()
-                    "NEGATE" -> viewModel.onNegationClick()
+                    in Constant.NUMBER -> viewModel.onNumberClick(tag)
+                    Constant.DOT -> viewModel.onFloatPointClick()
+                    Constant.Clear -> viewModel.onClearAllClick()
+                    Constant.BACKSPACE -> viewModel.onBackspaceClick()
+                    Constant.EQUAL -> viewModel.onEqualClick()
+                    Constant.NEG -> viewModel.onNegationClick()
                     else -> {
                         val operation = Operation.valueOf(tag)
                         viewModel.onOperationClick(operation)
