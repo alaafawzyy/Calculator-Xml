@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                 when (val tag = buttonClicked.tag.toString()) {
                     in Constant.NUMBER -> viewModel.onNumberClick(tag)
                     Constant.DOT -> viewModel.onFloatPointClick()
-                    Constant.Clear -> viewModel.onClearAllClick()
+                    Constant.CLEAR -> viewModel.onClearAllClick()
                     Constant.BACKSPACE -> viewModel.onBackspaceClick()
                     Constant.EQUAL -> viewModel.onEqualClick()
                     Constant.NEG -> viewModel.onNegationClick()
