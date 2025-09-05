@@ -118,7 +118,7 @@
                 android:background="@drawable/button_bg"
                 android:text="@string/calc_divide"
                 android:theme="@style/ButtonStyle.Operation"
-                android:tag="DIVISION"
+                android:tag="DIV"
                 app:layout_constraintStart_toStartOf="@id/btn_multiply"
                 app:layout_constraintBottom_toTopOf="@id/btn_multiply" />
 
@@ -169,7 +169,7 @@
                 android:background="@drawable/button_bg"
                 android:text="@string/calc_multiply"
                 android:theme="@style/ButtonStyle.Operation"
-                android:tag="MULTIPLICATION"
+                android:tag="MULTy"
                 app:layout_constraintBottom_toTopOf="@id/btn_plus"
                 app:layout_constraintStart_toStartOf="@id/btn_plus" />
 
@@ -220,7 +220,7 @@
                 android:background="@drawable/button_bg"
                 android:text="@string/calc_plus"
                 android:theme="@style/ButtonStyle.Operation"
-                android:tag="ADDITION"
+                android:tag="ADD"
                 app:layout_constraintBottom_toTopOf="@id/btn_minus"
                 app:layout_constraintStart_toStartOf="@id/btn_minus" />
 
@@ -271,7 +271,7 @@
                 android:background="@drawable/button_bg"
                 android:text="@string/calc_minus"
                 android:theme="@style/ButtonStyle.Operation"
-                android:tag="SUBTRACTION"
+                android:tag="SUB"
                 app:layout_constraintBottom_toTopOf="@id/btn_equals"
                 app:layout_constraintStart_toStartOf="@id/btn_equals" />
 
